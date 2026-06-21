@@ -1,6 +1,6 @@
 # Display and UI parameters
 ro.sf.lcd_density=440
-ro.something.status_bar_height=42
+ro.something.status_bar_height=30
 ro.something.nav_bar_height=44
 ro.something.screen_width=1080
 ro.something.screen_height=2340
