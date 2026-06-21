@@ -29,5 +29,10 @@ BOARD_ROOTFS_LABEL := ubuntu-fajita
 BOARD_KERNEL_DIR := kernel/oneplus/sdm845/linux-sdm845
 BOARD_KERNEL_DEFCONFIG := kernel/oneplus/sdm845/linux-sdm845/arch/arm64/configs/fajita_defconfig
 
+# User Interface configuration
+# Options: androidshell, phosh (Default: androidshell)
+BOARD_DEFAULT_UI := androidshell
+
+
 
 
