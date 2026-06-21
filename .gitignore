@@ -1,0 +1,25 @@
+# Build artifacts
+images/*.img
+images/*.gz
+images/*.cpio
+images/*-dtb
+
+# Compiled binaries
+boot/nothing_charger
+boot/initramfs/
+
+# Logs
+logs/*.log
+
+# Temporary build mounts/directories
+build/
+rootfs/rootfs/
+rootfs/mnt_tmp/
+rootfs_temp/
+
+# Editor/OS specifics
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
